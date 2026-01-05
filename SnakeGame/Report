@@ -1,0 +1,23 @@
+Snake Game – Setup & Run Instructions
+
+Requirements:
+- Python 3.10 or higher installed on your system
+- A desktop environment that supports the built-in 'turtle' graphics module
+
+Project files:
+- main.py          → Entry point for the game
+- snake.py         → Snake movement and body segment logic
+- Food.py          → Food object logic and random positioning
+- scoreboard.py    → Score and high-score handling (uses data.txt for persistence)
+- data.txt         → Stores the saved high score
+
+How to run:
+1. Ensure all the above files are in the same folder.
+2. Make sure Python 3 is installed and added to your PATH.
+3. Open a terminal in this folder and run:
+   python main.py
+4. Use the arrow keys (Up, Down, Left, Right) to control the snake.
+
+Notes:
+- The 'data.txt' file must be present in the same directory; it will be updated automatically when you beat the previous high score.
+- The game window will close when you click inside it after the game ends.
